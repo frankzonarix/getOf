@@ -7,7 +7,7 @@ services:
       - 3400:3400
     container_name: mundose-docker
     volumes:
-      - /tmp/cursose:/tmp
+      - /var/mundose/practica/repaso/docker/getof_image:getofImage
     networks:
       - net
 networks:
